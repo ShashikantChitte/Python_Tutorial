@@ -16,6 +16,7 @@ Interview-style coding practice, organised **by topic**. Inside each file the pr
 | [10_06_Recursion_and_Dynamic_Programming.md](10_06_Recursion_and_Dynamic_Programming.md) | Recursion and Dynamic Programming | 5 | 1 | 1 | 3 | – |
 | [10_07_Data_Structures.md](10_07_Data_Structures.md) | Data Structures | 10 | 1 | 4 | 5 | – |
 | [10_08_Files_JSON_and_Regex.md](10_08_Files_JSON_and_Regex.md) | Files, JSON and Regex | 15 | 4 | 6 | 5 | pyyaml, faker, jsonschema, pandas (optional) |
+| | **Total** | **104** | **31** | **42** | **31** | – |
 
 ## Browse by difficulty
 

@@ -1,4 +1,4 @@
-# PWPython – Python Notebooks
+# Python Tutorial
 
 Study notebooks for the PWPython course, as GitHub-readable Markdown. In every lesson each topic's **explanation** is followed directly by the **code** that demonstrates it, and the Markdown versions also show the **output** of every snippet.
 
@@ -17,10 +17,10 @@ Study notebooks for the PWPython course, as GitHub-readable Markdown. In every l
 |  | [Practice Code – Python Basics](01_Python%20Basics/01_09_Practice%20Code%20-%20Python%20Basics.md) | 10 practice problems, each with an explanation and expected output |
 | **02_Conditional Statements** | [conditional statements](02_Conditional%20Statements/02_01_conditional%20statements.md) | `if` / `elif` / `else`, ternary, `and` `or` `not`, nested, `pass` |
 |  | [match and loops](02_Conditional%20Statements/02_02_match%20and%20loops.md) | `match`, `range()`, `while`, `for`, `break`, `continue` |
-|  | [Practice code - conditional statements](02_Conditional%20Statements/02_03_Practice%20code%20-%20conditional%20statements.md) | Assignments with solutions |
-|  | [Practice Code – Conditional Statements & Loops](02_Conditional%20Statements/02_04_Practice%20Code%20-%20Conditional%20Statements%20and%20Loops.md) | 18 practice problems, each with an explanation and expected output |
+|  | [Practice Exercises - conditional statements](02_Conditional%20Statements/02_03_Practice%20code%20-%20conditional%20statements.md) | Assignments with solutions |
+| | [Practice Code – Conditional Statements & Loops](02_Conditional%20Statements/02_04_Practice%20Exercises%20-%20Conditional%20Statements%20and%20Loops.md) | 18 practice problems, each with an explanation and expected output |
 | **03_Strings** | [strings](03_Strings/03_01_strings.md) | slicing, f-strings, immutability, string methods |
-|  | [Practice code - strings](03_Strings/03_02_Practice%20code%20-%20strings.md) | Assignments with solutions |
+| | [Practice Exercises - strings](03_Strings/03_02_Practice%20Exercises%20-%20strings.md) | Assignments with solutions |
 |  | [Practice Code – Strings](03_Strings/03_03_Practice%20Code%20-%20Strings.md) | 21 practice problems, each with an explanation and expected output |
 | **04_Collections** | [list](04_Collections/04_01_Python_Collections_List.md) | lists |
 |  | [set](04_Collections/04_02_Python_Collections_Set.md) | sets |
@@ -42,7 +42,7 @@ Study notebooks for the PWPython course, as GitHub-readable Markdown. In every l
 |  | [Practice Code – File Handling](08_File%20Handling/08_02_Practice%20Code%20-%20File%20Handling.md) | 19 practice problems, each with an explanation and expected output |
 | **09_Exceptions** | [exceptions](09_Exceptions/09_02_Exceptions.md) | `try` / `except` / `else` / `finally`, `raise`, custom exceptions |
 |  | [Practice Code – Exceptions](09_Exceptions/09_03_Practice%20Code%20-%20Exceptions.md) | 21 practice problems, each with an explanation and expected output |
-| **10_Practice_Codes** | [Practice Codes index](10_Practice_Codes/README.md) | interview-style problems organised by topic (see below) |
+| **10_Practice_Codes** | [Practice Codes index](10_Practice_Codes/README.md) | 104 interview-style problems organised by topic (see below) |
 
 ### 10_Practice_Codes – by topic
 
