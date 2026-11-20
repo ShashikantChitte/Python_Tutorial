@@ -37,7 +37,7 @@ import os
 import subprocess
 import sys
 
-# Auto-create example_packages folder structure so this notebook runs anywhere
+# Auto-create the example_packages folder structure so this notebook runs anywhere.
 package_files = {
     # Example 1: Single Package
     "example1_single_package/pack1/__init__.py": "",
@@ -116,26 +116,34 @@ package_files = {
         'sys.path.append(root)\n'
         'from pack1.emp import Employee as PkgEmployee\n'
         'PkgEmployee(102, "John", 55000).displayemp()\n'
-    )
+    ),
 }
 
+# Base directory for the generated examples. In a notebook __file__ is not
+# defined, so fall back to the current working directory.
+try:
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+except NameError:
+    BASE_DIR = os.getcwd()
+EXAMPLES_DIR = os.path.join(BASE_DIR, "example_packages")
+
 for rel_path, content in package_files.items():
-    full_path = os.path.join("example_packages", rel_path)
+    full_path = os.path.join(EXAMPLES_DIR, rel_path)
     os.makedirs(os.path.dirname(full_path), exist_ok=True)
-    if not os.path.exists(full_path):
-        with open(full_path, "w", encoding="utf-8") as f:
-            f.write(content)
+    with open(full_path, "w", encoding="utf-8") as f:
+        f.write(content)
 
 
 def run_example(relative_path):
     """Run one example client in its own Python process and show what it prints."""
-    path = os.path.join("example_packages", relative_path)
+    path = os.path.join(EXAMPLES_DIR, relative_path)
     result = subprocess.run([sys.executable, path], capture_output=True, text=True)
     print(result.stdout, end="")
     if result.returncode != 0:
         print(result.stderr)
 
-print("Ready! Package examples created in 'example_packages/'.")
+
+print(f"Ready! Package examples created in '{EXAMPLES_DIR}'.")
 ```
 
 **Output:**
